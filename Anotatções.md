@@ -73,3 +73,24 @@
 - Operadores relaciconais
 - Operadores lógicoss
 - Operadores ternários
+
+## DOM
+
+### Elementos
+
+- window
+  - document
+    - getElementById()
+    - querySelector()
+      - div#msg - # busca por id
+      - div.msg - . busca por classe
+  - ...
+
+### Evevntos
+
+- mouseenter - Mouse entrou no elemento
+- mousemove - Mouse se moveu dentro do elemento
+- mousedown - Mouse clicou e segurou
+- mouseup - Soltou o botãao do mouse
+- click - fez um clique com o mouse
+- mouseout - mouse saiu de cima do objeto

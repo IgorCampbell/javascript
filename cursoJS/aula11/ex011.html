@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imigração</title>
+  </head>
+  <body>
+    <h1>Digite o país onde nasceu</h1>
+    <input type="text" name="txtpais" id="txtpais" />
+    <input type="button" value="Verificar" onclick="validar()" />
+    <p id="res">Validando...</p>
+
+    <script>
+      function validar() {
+        var tpais = window.document.getElementById("txtpais");
+        var pais = tpais.value;
+        var res = window.document.getElementById("res");
+        if (pais == "Brasil") {
+          res.innerHTML = `Você é <strong>Brasileiro</strong>`;
+        } else {
+          res.innerHTML = `Você é <strong>extrangeiro</strong>`;
+        }
+      }
+    </script>
+  </body>
+</html>
