@@ -4,6 +4,10 @@
 
 - npx serve .
 
+## Para testar os códigos JS é utilizada a extenção Node.js Exec
+
+- Pressionar F8 para executar um arquivo ".js".
+
 ## Variáveis
 
 - var nome = 'Igor'
